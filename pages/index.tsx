@@ -58,13 +58,14 @@ export default () => {
       {/*    className="inline-block"*/}
       {/*  />*/}
       {/*</div>*/}
+
+      <UserInfo members={members} />
       {members.length === 0 ? (
         <div className="text-center font-bold mt-8 text-orange-700">
           Loading...
         </div>
       ) : (
         <>
-          <UserInfo members={members} />
           <MemberList members={members} />
         </>
       )}
