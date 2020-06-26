@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   });
 
   const { members: membersFromGit } = await fetch(
-    'https://raw.githubusercontent.com/ReadBookCamp/ReadBookCamp/master/data/latest.json',
+    'https://raw.githubusercontent.com/GGwujun/ReadBookCamp/master/data/latest.json',
   ).then((res) => res.json());
   const blocked = membersFromGit.some((member: any) => {
     return member.name === name && member.blocked_at;
