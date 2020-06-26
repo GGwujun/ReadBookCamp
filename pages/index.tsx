@@ -29,7 +29,7 @@ export default () => {
         </div>
         <div className="flex flex-col content-center flex-wrap">
           <div className="text-gray-700 lg:w-1/2 sm:w-3/4">
-            Hi！这是一个机器人管理的前端小社群，希望能通过
+            Hi！这是一个机器人管理的前端小社群，希望能通过哦
             <a
               href="https://github.com/ReadBookCamp/ReadBookCamp/issues/1"
               target="_blank"
